@@ -1,19 +1,13 @@
 # DC Tracker Bot
 
-🤖 A Bot To Find Telegram DC ID
+🤖 A Bot To Find Telegram DC ID and Provide User Information
 
 ---
 
-```
-Made with Python3
-(C) @BXBotz
-Copyright permission under MIT License
-License -> https://github.com/BXBotz/DC-Tracker/blob/main/LICENSE
-```
-
+ 
 ---
 
-# Deploy To Heroku
+## 🚀 Deploy To Heroku
 
 <details><summary><b>Deploy To Heroku</b></summary>
 <p>
@@ -25,40 +19,27 @@ License -> https://github.com/BXBotz/DC-Tracker/blob/main/LICENSE
 </details>
 
 <details>
-  <summary><b>Deploy in your vps</b></summary>
+  <summary><b>Deploy on VPS</b></summary>
 <br/>
 
-```sh
+```
 git clone https://github.com/BXBotz/DC-Tracker
 cd DC-Tracker-Bot
 pip3 install -r requirements.txt
-# <Create Variables appropriately>
+# Set up environment variables
 python3 main.py
 ```
 
 </details>
 
-## Variables
+🔧 Variables
+`API_HASH` - Your API HASH, get from my.telegram.org
+`API_ID` - Your API ID, get from my.telegram.org
+`BOT_TOKEN` - Your Bot TOKEN, get from @BotFather
+`UPDATE_CHANNEL` - Your Channel Username Without `@`
 
-- `API_HASH` Your API HASH Get From my.telegram.org
-- `API_ID` Your API ID From my.telegram.org
-- `BOT_TOKEN` Your Bot TOKEN Get From @BotFather
-- `UPDATE_CHANNEL` Channel Username Without @
-
----
-# ⚜️ About Bot
-
-- Telegram DC Bot
-- OpenSource
-- Telegram Bot
-- DC Finder Bot
-- Data Center
-
-----
-
-# Details
-
-<a href="https://telegram.me/BX_Botz"><img src="https://img.shields.io/badge/Telegram-%20Channel%20-blue.svg?logo=telegram&logoColor=FF3333"></a>
-<a href="https://telegram.me/BXSupport"><img src="https://img.shields.io/badge/Telegram-%20Group%20-blu.svg?logo=telegram&logoColor=FF3333"></a>
-
-------
+⚜️ About The Bot
+Provides Telegram DC ID
+Offers detailed user account information
+OpenSource
+Built using Python and Pyrogram
